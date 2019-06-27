@@ -15,15 +15,7 @@
     "repositories": [
         {
             "type":"vcs",
-            "package": {
-              "name": "werneckbh/qr-code",
-              "version":"master",
-              "source": {
-                  "url": "https://github.com/aloha1003/qrcode.git",
-                  "type": "git",
-                  "reference":"master"
-                }
-            }
+            "url": "https://github.com/aloha1003/qrcode.git"
         }
     ],
     "autoload": {
