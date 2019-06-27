@@ -10,8 +10,22 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "werneckbh/qr-code": "^2.1"
+        "werneckbh/qr-code": "master"
     },
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+              "name": "werneckbh/qr-code",
+              "version":"master",
+              "source": {
+                  "url": "https://github.com/aloha1003/qrcode.git",
+                  "type": "git",
+                  "reference":"master"
+                }
+            }
+        }
+    ],
     "autoload": {
         "psr-4": {
             "LaravelQRCode\\": "src/"
