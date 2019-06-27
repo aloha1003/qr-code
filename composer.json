@@ -1,5 +1,5 @@
 {
-    "name": "werneckbh/laravel-qr-code",
+    "name": "aloha1003/laravel-qr-code",
     "description": "QR Code Generator for PHP wrapper for Laravel",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "werneckbh/qr-code": "master"
+        "aloha1003/qr-code": "master"
     },
     "repositories": [
         {
